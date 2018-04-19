@@ -1,0 +1,19 @@
+{
+  "name": "ec",
+  "version": "1.0.0",
+  "description": "An E-commence website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://jiangheyan:jhy3gitdl@github.com/jiangheyan/ECommerce.git"
+  },
+  "author": "Helen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jiangheyan/ECommerce/issues"
+  },
+  "homepage": "https://github.com/jiangheyan/ECommerce#readme"
+}
