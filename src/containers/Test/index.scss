@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Roboto Medium';
+    font-style: normal;
+    font-weight: 500;
+    src:
+    local('Roboto Medium'),
+    local('Roboto-Medium'),
+    url('./common/assets/fonts/roboto/Roboto-Medium.ttf') format('truetype');
+}
+
+.testDiv {
+    border: 1px solid red;
+    p {
+        font-family: 'Roboto Medium';
+        color: red;
+    }
+}
