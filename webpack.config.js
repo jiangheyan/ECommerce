@@ -9,7 +9,7 @@ const config = {
         contentBase: path.resolve(__dirname, 'dist'),
         port: 8080,
         open: true,
-        // hot: true,
+        hot: true,
         openPage: 'index.html'
     },
     entry: {
@@ -22,7 +22,7 @@ const config = {
     },
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: '[name].js'
+        filename: 'js/[name]-[chunkhash:8].js'
     },
     module: {
         rules: [{
@@ -79,9 +79,12 @@ const config = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            title: '',
+            title: 'ECOMMERCE',
             template: 'src/index.html',
             filename: './index.html',
+            minify: {
+                collapseWhitespace: true
+            }
         })
     ]
 };
